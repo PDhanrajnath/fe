@@ -59,10 +59,10 @@ spec:
 		}	
 	}    
 	post{
-		always{
-        container('docker'){
-        sh 'docker logout'
-    }
-   }
+	    always{
+	        container('bc15-docker'){
+	         sh 'docker logout'
+	    }}
 	}
+       
 }
