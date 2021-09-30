@@ -1,0 +1,6 @@
+{
+    //
+    "plugins": ["react", "react-hooks"],
+    "extends": "eslint-config-zemoso"
+    //
+}

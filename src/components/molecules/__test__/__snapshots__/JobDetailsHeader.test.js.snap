@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JobDetailsHeader placeholder test Matches the snapshot 1`] = `
+<div>
+  <div
+    class="MuiGrid-root makeStyles-root-3"
+    data-testid="jobDetailsHeader-placeholder"
+  >
+    <div
+      data-testid="img-placeholder"
+    >
+      <img
+        class="makeStyles-secondary-5"
+      />
+    </div>
+    <div
+      class="MuiGrid-root makeStyles-columnMargin-2 MuiGrid-container MuiGrid-direction-xs-column"
+    >
+      <h4
+        class="MuiTypography-root makeStyles-primary-6 MuiTypography-h4"
+        data-testid="cardLabel-placeholder"
+      />
+      <h4
+        class="MuiTypography-root makeStyles-secondary-7 MuiTypography-h4"
+        data-testid="cardLabel-placeholder"
+      />
+      <h4
+        class="MuiTypography-root makeStyles-secondary-7 MuiTypography-h4"
+        data-testid="cardLabel-placeholder"
+      />
+      
+    </div>
+  </div>
+</div>
+`;

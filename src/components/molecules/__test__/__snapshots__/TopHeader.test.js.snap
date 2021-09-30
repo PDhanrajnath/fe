@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopHeader placeholder test Matches the snapshot 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-space-between"
+    data-testid="topheader-placeholder"
+  >
+    <div
+      class="MuiGrid-root makeStyles-location-5 MuiGrid-item MuiGrid-grid-xs-3"
+    >
+      <div
+        data-testid="location-placeholder"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root makeStyles-root-6"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 2.88-2.88 7.19-5 9.88C9.92 16.21 7 11.85 7 9z"
+          />
+          <circle
+            cx="12"
+            cy="9"
+            r="2.5"
+          />
+        </svg>
+        <h4
+          class="MuiTypography-root makeStyles-label-7 MuiTypography-h4"
+        >
+          hyderabad
+        </h4>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-3"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root makeStyles-root-1"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M4 4h16v12H5.17L4 17.17V4m0-2c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2H4zm2 10h12v2H6v-2zm0-3h12v2H6V9zm0-3h12v2H6V6z"
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root makeStyles-root-1"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"
+        />
+      </svg>
+      <div
+        class="MuiAvatar-root MuiAvatar-circle makeStyles-avatarMargin-4"
+      >
+        <img
+          class="MuiAvatar-img"
+          src="/assets/avatar_profile.jpeg"
+        />
+      </div>
+      <h4
+        class="MuiTypography-root makeStyles-label-3 MuiTypography-h4"
+      >
+        Bob
+      </h4>
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root makeStyles-root-1"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

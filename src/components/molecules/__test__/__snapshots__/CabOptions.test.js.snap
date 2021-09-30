@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CabOptions placeholder test Matches the snapshot 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column MuiGrid-justify-xs-center"
+    data-testid="cabOptions-placeholder"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
+    >
+      <img
+        alt="OLA"
+        class="makeStyles-img-4"
+        src="https://res-5.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1459446250/xx0u5xwwzygivm67ogsk.jpg"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-justify-xs-center MuiGrid-grid-xs-3"
+      >
+        <h4
+          class="MuiTypography-root makeStyles-primary-1 MuiTypography-h4"
+        >
+          OLA
+        </h4>
+        <h4
+          class="MuiTypography-root makeStyles-secondary-2 MuiTypography-h4"
+        >
+          Approx 
+          40
+        </h4>
+      </div>
+      <h4
+        class="MuiTypography-root makeStyles-theme-3 MuiTypography-h4"
+      >
+        Book now
+      </h4>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
+    >
+      <img
+        alt="UBER"
+        class="makeStyles-img-4"
+        src="https://semaine-production.s3.amazonaws.com/products/product/image/6827/large_Uber-app.jpg"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-justify-xs-center MuiGrid-grid-xs-3"
+      >
+        <h4
+          class="MuiTypography-root makeStyles-primary-1 MuiTypography-h4"
+        >
+          UBER
+        </h4>
+        <h4
+          class="MuiTypography-root makeStyles-secondary-2 MuiTypography-h4"
+        >
+          Approx 
+          40
+        </h4>
+      </div>
+      <h4
+        class="MuiTypography-root makeStyles-theme-3 MuiTypography-h4"
+      >
+        Book now
+      </h4>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
+    >
+      <img
+        alt="Rapido"
+        class="makeStyles-img-4"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWOLJJfUAbhh1JVtRLgNCexBH9_cC2L3NvqA&usqp=CAU"
+      />
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-justify-xs-center MuiGrid-grid-xs-3"
+      >
+        <h4
+          class="MuiTypography-root makeStyles-primary-1 MuiTypography-h4"
+        >
+          Rapido
+        </h4>
+        <h4
+          class="MuiTypography-root makeStyles-secondary-2 MuiTypography-h4"
+        >
+          Approx 
+          40
+        </h4>
+      </div>
+      <h4
+        class="MuiTypography-root makeStyles-theme-3 MuiTypography-h4"
+      >
+        Book now
+      </h4>
+    </div>
+  </div>
+</div>
+`;

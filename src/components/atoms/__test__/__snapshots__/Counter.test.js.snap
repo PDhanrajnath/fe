@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter placeholder test Matches the snapshot 1`] = `
+<div>
+  <div
+    data-testid="counter-placeholder"
+    style="justify-content: center;"
+  >
+    <div>
+      <h3
+        class="MuiTypography-root makeStyles-jobs-1 MuiTypography-h3"
+      >
+        897
+      </h3>
+    </div>
+    <div>
+      <h5
+        class="MuiTypography-root makeStyles-city-2 MuiTypography-h5"
+      >
+        Hyderabad
+      </h5>
+    </div>
+  </div>
+</div>
+`;

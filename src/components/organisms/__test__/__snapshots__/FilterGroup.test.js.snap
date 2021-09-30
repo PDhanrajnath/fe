@@ -1,0 +1,1351 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter Group placeholder test Matches the snapshot 1`] = `
+<div>
+   
+  <div
+    class="MuiPaper-root makeStyles-paperStyle-4 MuiPaper-outlined MuiPaper-rounded"
+    data-testid="filter-group"
+  >
+    <div
+      class="makeStyles-closeIcon-1"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root makeStyles-closeIconSize-3"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+        />
+      </svg>
+    </div>
+    <div
+      class="MuiGrid-root makeStyles-filterTypes-5 MuiGrid-container MuiGrid-spacing-xs-4"
+    >
+      <div
+        class="MuiGrid-root makeStyles-filterType-2 MuiGrid-item MuiGrid-grid-xs-4"
+      >
+        <div
+          data-testid="filter-type"
+        >
+          <div
+            class="makeStyles-heading-7"
+          >
+            Distance
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="0-10 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    0-10 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="10-20 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    10-20 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="20-30 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    20-30 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="30-40 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    30-40 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root makeStyles-filterType-2 MuiGrid-item MuiGrid-grid-xs-4"
+      >
+        <div
+          data-testid="filter-type"
+        >
+          <div
+            class="makeStyles-heading-7"
+          >
+            Distance
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="0-10 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    0-10 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="10-20 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    10-20 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="20-30 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    20-30 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="30-40 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    30-40 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root makeStyles-filterType-2 MuiGrid-item MuiGrid-grid-xs-4"
+      >
+        <div
+          data-testid="filter-type"
+        >
+          <div
+            class="makeStyles-heading-7"
+          >
+            Distance
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="0-10 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    0-10 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="10-20 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    10-20 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="20-30 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    20-30 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="30-40 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    30-40 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root makeStyles-filterType-2 MuiGrid-item MuiGrid-grid-xs-4"
+      >
+        <div
+          data-testid="filter-type"
+        >
+          <div
+            class="makeStyles-heading-7"
+          >
+            Distance
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="0-10 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    0-10 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="10-20 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    10-20 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="20-30 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    20-30 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="30-40 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    30-40 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root makeStyles-filterType-2 MuiGrid-item MuiGrid-grid-xs-4"
+      >
+        <div
+          data-testid="filter-type"
+        >
+          <div
+            class="makeStyles-heading-7"
+          >
+            Distance
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="0-10 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    0-10 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="10-20 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    10-20 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="20-30 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    20-30 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="30-40 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    30-40 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root makeStyles-filterType-2 MuiGrid-item MuiGrid-grid-xs-4"
+      >
+        <div
+          data-testid="filter-type"
+        >
+          <div
+            class="makeStyles-heading-7"
+          >
+            Distance
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="0-10 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    0-10 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="10-20 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    10-20 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="20-30 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    20-30 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="makeStyles-fliterLabel-8"
+            >
+              <label
+                class="MuiFormControlLabel-root"
+                data-testid="filter"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-12 MuiCheckbox-root Component-root-10"
+                  data-testid="filter-checkbox"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-15"
+                      data-indeterminate="false"
+                      name="30-40 kms"
+                      type="checkbox"
+                      value=""
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  <span
+                    class="makeStyles-checkboxLabel-9"
+                  >
+                    30-40 kms
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root makeStyles-buttons-6 MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-justify-xs-flex-end"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-small-17 makeStyles-common-20 MuiButton-outlinedPrimary"
+          data-testid="button"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Clear all
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-small-17 makeStyles-common-20 MuiButton-containedPrimary"
+          data-testid="button"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Apply
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+   
+</div>
+`;

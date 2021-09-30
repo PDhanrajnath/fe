@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Job details Matches the snapshot 1`] = `
+<div>
+  <div
+    class="MuiPaper-root makeStyles-Paper-7 MuiPaper-outlined"
+  >
+    <div
+      class="MuiGrid-root makeStyles-root-1 MuiGrid-container MuiGrid-direction-xs-column"
+      data-testid="job-details"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item"
+      >
+        <div
+          class="MuiGrid-root makeStyles-root-10"
+          data-testid="jobDetailsHeader-placeholder"
+        >
+          <div
+            data-testid="img-placeholder"
+          >
+            <img
+              class="makeStyles-secondary-12"
+            />
+          </div>
+          <div
+            class="MuiGrid-root makeStyles-columnMargin-9 MuiGrid-container MuiGrid-direction-xs-column"
+          >
+            <h4
+              class="MuiTypography-root makeStyles-primary-13 MuiTypography-h4"
+              data-testid="cardLabel-placeholder"
+            />
+            <h4
+              class="MuiTypography-root makeStyles-secondary-14 MuiTypography-h4"
+              data-testid="cardLabel-placeholder"
+            />
+            <h4
+              class="MuiTypography-root makeStyles-secondary-14 MuiTypography-h4"
+              data-testid="cardLabel-placeholder"
+            />
+            <div
+              class="MuiGrid-root makeStyles-buttonsStyle-8 MuiGrid-container MuiGrid-justify-xs-space-between"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-small-16 makeStyles-common-19 MuiButton-outlinedPrimary"
+                data-testid="button"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Remove
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-small-16 makeStyles-common-19 MuiButton-containedPrimary"
+                data-testid="button"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Apply
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column"
+      />
+      <div
+        class="makeStyles-greenCommute-5"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-long-18 makeStyles-common-19 MuiButton-containedPrimary"
+          data-testid="button"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Green Commute Routes
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stepper test Matches the snapshot 1`] = `
+<div>
+  <div
+    data-testid="stepper"
+    style="display: flex; align-items: center;"
+  >
+    <div
+      class="MuiAvatar-root MuiAvatar-circle makeStyles-unvisited-1 MuiAvatar-colorDefault"
+      data-testid="label-number"
+    >
+      1
+    </div>
+    <p
+      class="MuiTypography-root makeStyles-root-3 MuiTypography-body1"
+      data-testid="stepper-label"
+      style="color: rgb(95, 115, 129); font-size: 18px; margin-right: 15px;"
+    >
+      Your Location
+    </p>
+  </div>
+</div>
+`;

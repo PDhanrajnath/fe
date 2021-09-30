@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label placeholder test Matches the snapshot 1`] = `
+<div>
+  <div>
+    <h2
+      class="MuiTypography-root makeStyles-large-2 MuiTypography-h2"
+      data-testid="large-text"
+    >
+      AQI
+    </h2>
+  </div>
+</div>
+`;

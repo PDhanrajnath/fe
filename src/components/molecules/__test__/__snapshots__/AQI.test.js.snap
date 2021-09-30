@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AQI test Matches the snapshot 1`] = `
+<div>
+  <div
+    class="MuiGrid-root makeStyles-root-1 MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-direction-xs-column MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"
+    data-testid="AQI"
+  >
+    <div
+      class="MuiGrid-root makeStyles-imageItem-2 MuiGrid-item"
+    >
+      <img
+        alt="green commute"
+        class="makeStyles-image-4"
+        src="https://cdn.zeplin.io/5fa28fcbff79c58958e4e1a6/assets/2fbdf0a6-8c92-401e-9811-0d95634962fa.svg"
+      />
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item"
+    >
+      <div
+        style="justify-content: center;"
+      >
+        <div>
+          <h3
+            class="MuiTypography-root makeStyles-jobs-5 MuiTypography-h3"
+          >
+            894
+          </h3>
+        </div>
+        <div>
+          <h5
+            class="MuiTypography-root makeStyles-city-6 MuiTypography-h5"
+          >
+            Hyderabad
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root makeStyles-label-3 MuiGrid-item"
+    >
+      <div>
+        <p
+          class="MuiTypography-root makeStyles-small-7 MuiTypography-body2"
+          data-testid="small-text"
+        >
+          Real- Time Air Quality Index(AQI) in this location
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

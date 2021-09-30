@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content Matches the snapshot 1`] = `
+<div>
+  <div
+    data-testid="job-content"
+  >
+    <h2
+      class="MuiTypography-root MuiTypography-h2"
+    >
+      Description
+    </h2>
+    <p
+      class="MuiTypography-root MuiTypography-body2"
+    >
+      test
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chip Group test Matches the snapshot 1`] = `
+<div>
+  <div
+    class="makeStyles-root-1"
+    data-testid="ChipGroup"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container"
+    >
+      <div
+        class="MuiGrid-root makeStyles-chips-2 MuiGrid-item MuiGrid-grid-xs-10"
+      />
+    </div>
+  </div>
+</div>
+`;

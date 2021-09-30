@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading text Matches the snapshot 1`] = `
+<div>
+  <div
+    class="makeStyles-headingDiv-1"
+    data-testid="heading-text"
+    id="headingText"
+  >
+    <h6
+      class="MuiTypography-root MuiTypography-h6"
+    >
+      Heading
+    </h6>
+  </div>
+</div>
+`;

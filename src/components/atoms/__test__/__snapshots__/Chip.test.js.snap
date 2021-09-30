@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chip placeholder test Matches the snapshot 1`] = `
+<div>
+  <div
+    data-testid="chip-placeholder"
+  >
+    <div
+      class="MuiChip-root makeStyles-root-1 MuiChip-outlined MuiChip-sizeSmall"
+    >
+      <span
+        class="MuiChip-label MuiChip-labelSmall"
+      >
+        chip
+      </span>
+    </div>
+  </div>
+</div>
+`;
