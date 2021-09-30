@@ -1,9 +1,9 @@
-FROM node:10-alpine
-RUN mkdir /app
-WORKDIR /app
+FROM node:10-alpine 
 COPY ["package.json", "package-lock.json*", "./"]
-RUN npm install --production 
-RUN mv node_modules ../
+RUN npm install 
+RUN mkdir /app 
+RUN mv ./node_modules ./app
+WORKDIR /app
 COPY . .
-EXPOSE 3000
+RUN npm run build 
 CMD [ "npm", "start" ]
