@@ -58,13 +58,13 @@ podTemplate(label: 'bc15', containers: [
 		
 		}
 	
-	post{
-	    always{
-	        container('bc15-docker'){
-	         sh 'docker logout'
-	    }
-	    }
-	}
+// 	post{
+// 	    always{
+// 	        container('bc15-docker'){
+// 	         sh 'docker logout'
+// 	    }
+// 	    }
+// 	}
     
 
   
