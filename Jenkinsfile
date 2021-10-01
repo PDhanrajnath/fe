@@ -1,11 +1,11 @@
 import groovy.transform.Field
 
-podTemplate(label: bc15, containers: [
+podTemplate(label: 'bc15', containers: [
 	containerTemplate(name: 'bc15-docker', image: 'docker:19.03', command: 'cat', ttyEnabled: true)],
 	volumes: [hostPathVolume(mountPath: '/var/run/docker.sock', hostPath: '/var/run/docker.sock')]
 ) {
 
-  node(bc15){
+  node('bc15'){
   	environment {
 		docker_image=""
 		DOCKERHUB_CREDENTIALS= credentials('Dhanrajnath_Docker')
