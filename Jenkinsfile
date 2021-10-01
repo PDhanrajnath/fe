@@ -13,24 +13,30 @@ podTemplate(label: 'bc15', containers: [
 	}
 	
 
-		stage('Checkout Source') {
-			steps {
-        git 'https://github.com/PDhanrajnath/fe.git'
-      }
-    }
+// 		stage('Checkout Source') {
+// 			steps {
+//         git 'https://github.com/PDhanrajnath/fe.git'
+//       }
+//     }
     
     stage('Build Docker'){
-			steps{
+			
+				git 'https://github.com/PDhanrajnath/fe.git'
 				container('bc15-docker'){
+					
+					 stage('Build docker image') {
+                
 					sh 'docker build -t dhanrajnath/fe_jenkins .'
 					sh 'docker images'
+					}
 				}
-			}
+			
 		}
 		
 		stage('Push Docker'){
-			steps{
+			
 				container('bc15-docker'){
+					stage('Push docker image'){
 					sh 'ls'
     withCredentials([usernamePassword(credentialsId: 'Dhanrajnath_Docker', usernameVariable: 'username', passwordVariable: 'password')]) {
 						sh 'echo $PASSWORD'
@@ -42,13 +48,12 @@ podTemplate(label: 'bc15', containers: [
 				}
 			}
 		}
-		             stage ('BC15-GC') {
-        	steps {
-		
+		   stage ('BC15-GC') {
+        	
 		    build job: 'BC15-GC', parameters: [string(name: 'master', value: env.BRANCH_NAME)]
-		
+	
         }
-    }
+    
 		
 		
 		}
