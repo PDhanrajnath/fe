@@ -20,39 +20,36 @@ podTemplate(label: 'bc15', containers: [
 //     }
     
     stage('Build Docker'){
+	git 'https://github.com/PDhanrajnath/fe.git'
+	container('bc15-docker'){
+
+		sh 'docker build -t dhanrajnath/fe_jenkins .'
+		sh 'docker images'
+
+	}
 			
-				git 'https://github.com/PDhanrajnath/fe.git'
-				container('bc15-docker'){
-					
-					
-                
-					sh 'docker build -t dhanrajnath/fe_jenkins .'
-					sh 'docker images'
-					
-				}
-			
-		}
+     }
 		
-		stage('Push Docker'){
+	stage('Push Docker'){
 			
-				container('bc15-docker'){
+		container('bc15-docker'){
 					
-					sh 'ls'
-    withCredentials([usernamePassword(credentialsId: 'Dhanrajnath_Docker', usernameVariable: 'username', passwordVariable: 'password')]) {
-						sh 'echo $PASSWORD'
-                         sh 'docker login -u $username -p $password'
-						echo USERNAME
-						echo "username is $USERNAME"
-						sh 'docker push dhanrajnath/fe_jenkins'
+			sh 'ls'
+    			withCredentials([usernamePassword(credentialsId: 'Dhanrajnath_Docker', usernameVariable: 'username', passwordVariable: 'password')]) {
+			sh 'echo $PASSWORD'
+                        sh 'docker login -u $username -p $password'
+			echo USERNAME
+			echo "username is $USERNAME"
+			sh 'docker push dhanrajnath/fe_jenkins'
               
 				}
 			}
 		}
-		   stage ('BC15-GC') {
+// 		   stage ('BC15-GC') {
         	
-		    build job: 'BC15-GC', parameters: [string(name: 'master', value: env.BRANCH_NAME)]
+// 		    build job: 'BC15-GC', parameters: [string(name: 'master', value: env.BRANCH_NAME)]
 	
-        }
+//         }
     
 		
 		
