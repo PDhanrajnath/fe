@@ -57,10 +57,10 @@ spec:
 				}
 			}
 		}
-		             stage ('BC15GC') {
+		             stage ('BC15-GC') {
         	steps {
 		
-		    build job: 'BC15GC', parameters: [string(name: 'master', value: env.BRANCH_NAME)]
+		    build job: 'BC15-GC', parameters: [string(name: 'master', value: env.BRANCH_NAME)]
 		
         }
     }
