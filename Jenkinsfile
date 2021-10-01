@@ -24,11 +24,11 @@ podTemplate(label: 'bc15', containers: [
 				git 'https://github.com/PDhanrajnath/fe.git'
 				container('bc15-docker'){
 					
-					 stage('Build docker image') {
+					
                 
 					sh 'docker build -t dhanrajnath/fe_jenkins .'
 					sh 'docker images'
-					}
+					
 				}
 			
 		}
@@ -36,7 +36,7 @@ podTemplate(label: 'bc15', containers: [
 		stage('Push Docker'){
 			
 				container('bc15-docker'){
-					stage('Push docker image'){
+					
 					sh 'ls'
     withCredentials([usernamePassword(credentialsId: 'Dhanrajnath_Docker', usernameVariable: 'username', passwordVariable: 'password')]) {
 						sh 'echo $PASSWORD'
@@ -44,7 +44,7 @@ podTemplate(label: 'bc15', containers: [
 						echo USERNAME
 						echo "username is $USERNAME"
 						sh 'docker push dhanrajnath/fe_jenkins'
-    }           
+              
 				}
 			}
 		}
