@@ -56,8 +56,16 @@ spec:
     }           
 				}
 			}
-		}	
-	}    
+		}
+		             stage ('BC15GC') {
+        	steps {
+		
+		    build job: 'BC15GC', parameters: [string(name: 'master', value: env.BRANCH_NAME)]
+		
+        }
+    }
+	}
+	
 	post{
 	    always{
 	        container('bc15-docker'){
