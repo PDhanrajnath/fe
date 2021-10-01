@@ -12,8 +12,7 @@ podTemplate(label: 'bc15', containers: [
 		// MY_KUBECONFIG = credentials('config-file')
 	}
 	
-	
-	stages{
+
 		stage('Checkout Source') {
 			steps {
         git 'https://github.com/PDhanrajnath/fe.git'
@@ -63,7 +62,7 @@ podTemplate(label: 'bc15', containers: [
 	}
     
 
-  }
+  
 
 
 }
