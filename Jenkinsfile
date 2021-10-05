@@ -9,6 +9,7 @@ podTemplate(label: 'bc15', containers: [
   	environment {
 		docker_image=""
 		DOCKERHUB_CREDENTIALS= credentials('Dhanrajnath_Docker')
+
 		// MY_KUBECONFIG = credentials('config-file')
 	}
 	
@@ -23,7 +24,8 @@ podTemplate(label: 'bc15', containers: [
 	git 'https://github.com/PDhanrajnath/fe.git'
 	container('bc15-docker'){
 
-		sh 'docker build -t dhanrajnath/fe_jenkins .'
+		sh 'docker build -t dhanrajnath/fe_jenkins:latest .'
+		sh "docker tag dhanrajnath/fe_jenkins:latest dhanrajnath/fe_jenkins:${BUILD_NUMBER}"
 // 		sh 'docker images'
 
 	}
@@ -40,14 +42,15 @@ podTemplate(label: 'bc15', containers: [
                         sh 'docker login -u $username -p $password'
 			echo USERNAME
 			echo "username is $USERNAME"
-			sh 'docker push dhanrajnath/fe_jenkins'
+			sh 'docker push dhanrajnath/fe_jenkins:latest'
+			sh "docker push dhanrajnath/fe_jenkins:${BUILD_NUMBER}"
               
 				}
 			}
 		}
 		   stage ('BC15-GC') {
         	
-		    build job: 'BC15-GC'
+		    build job: 'BC15-GC', parameters: [string(name: 'fe_tag', value: BUILD_NUMBER)]
 	
         }
     
