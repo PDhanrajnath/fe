@@ -24,7 +24,7 @@ podTemplate(label: 'bc15', containers: [
 	container('bc15-docker'){
 
 		sh 'docker build -t dhanrajnath/fe_jenkins .'
-		sh 'docker images'
+// 		sh 'docker images'
 
 	}
 			
@@ -47,7 +47,7 @@ podTemplate(label: 'bc15', containers: [
 		}
 		   stage ('BC15-GC') {
         	
-		    build job: 'BC15-GC', parameters: [string(name: 'master', value: env.BRANCH_NAME)]
+		    build job: 'BC15-GC'
 	
         }
     
