@@ -45,11 +45,11 @@ podTemplate(label: 'bc15', containers: [
 				}
 			}
 		}
-// 		   stage ('BC15-GC') {
+		   stage ('BC15-GC') {
         	
-// 		    build job: 'BC15-GC', parameters: [string(name: 'master', value: env.BRANCH_NAME)]
+		    build job: 'BC15-GC', parameters: [string(name: 'master', value: env.BRANCH_NAME)]
 	
-//         }
+        }
     
 		
 		
